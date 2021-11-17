@@ -13,12 +13,12 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 <style>
 body {
-	background: #F0E9D2;
+	background: #eeeeee;
 	font-family: 'Open Sans', sans-serif;
 }
 .navbar {
 	font-size: 14px;
-	background: #fff;
+	background: #F0E9D2;
 	padding-left: 16px;
 	padding-right: 16px;
 	border-bottom: 1px solid #d6d6d6;
@@ -33,7 +33,7 @@ body {
 	text-transform: uppercase;
 }
 .navbar .navbar-brand b {
-	color: #181D31;
+	color: black;
 }
 .navbar .navbar-nav a {
 	font-size: 96%;
@@ -41,7 +41,7 @@ body {
 	text-transform: uppercase;
 }
 .navbar .navbar-nav a.active {
-	color:#9A616D;
+	color:black;
 	background: transparent !important;
 }
 .search-box input.form-control, .search-box .btn {
@@ -102,17 +102,16 @@ body {
 </head> 
 <body>
 <nav class="navbar navbar-expand-lg navbar-light">
-	<a href="#" class="navbar-brand"><b>CASA LUNA</b></a>  		
+	<a href="#" class="navbar-brand"><b>CASA LUNAs</b></a>  		
 	<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
 		<span class="navbar-toggler-icon"></span>
 	</button>
 	<!-- Collection of nav links, forms, and other content for toggling -->
 	<div id="navbarCollapse" class="collapse navbar-collapse justify-content-start">
 		<div class="navbar-nav">
-			<a href="profil.php" class="nav-item nav-link">Profile</a>
-            <a href="home.php" class="nav-item nav-link">Home</a>
-			<a href="keranjang.php" class="nav-item nav-link">Cart</a>			
-			<a href="transaksi.php" class="nav-item nav-link active">Transaksi</a>
+			<a href="home.php" class="nav-item nav-link">Home</a>
+			<a href="tampil_produk.php" class="nav-item nav-link">Produk</a>			
+			<a href="tampil_pelanggan.php" class="nav-item nav-link active">Data Pelanggan</a>
       </div>
         <form class="navbar-form form-inline ml-auto">
 		<div class="input-group">

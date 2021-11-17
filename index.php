@@ -11,45 +11,35 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
 </head>
 <body>
-<section class="vh-100" style="background-color: #F0E9D2;">
-  <div class="container py-5 h-100">
-    <div class="row d-flex justify-content-center align-items-center h-100">
-      <div class="col col-xl-10">
-        <div class="card" style="border-radius: 1rem;">
-          <div class="row g-0">
-            <div class="col-md-6 col-lg-5 d-none d-md-block">
-              <img
-                src="casaluna.jpeg"
-                alt="login form"
-                class="img-fluid" style="border-radius: 1rem 0 0 1rem;"
-              />
-            </div>
-            <div class="col-md-6 col-lg-7 d-flex align-items-center">
-              <div class="card-body p-4 p-lg-5 text-black">
-                <form action="proses_login.php" method="POST">
-                  <div class="d-flex align-items-center mb-3 pb-1">
-                    <i class="fas fa-cubes fa-2x me-3" style="color: #ff6219;"></i>
-                    <img src="">    
-                    <span class="h1 fw-bold mb-0">&nbsp;CASA LUNA</span>
-                  </div>
-                  <h5 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;">Sign into your account</h5>
-                  <div class="form-outline mb-4">
-                    <input type="text" id="form2Example17"  name="username" class="form-control form-control-lg" />
-                    <label class="form-label" for="form2Example17">Username</label>
-                  </div>
-                  <div class="form-outline mb-4">
-                    <input type="password" id="form2Example27" name="password" class="form-control form-control-lg" />
-                    <label class="form-label" for="form2Example27">Password</label>
-                  </div>
-                  <div class="pt-1 mb-4">
-                    <button class="btn btn-dark btn-lg btn-block" type="submit">Login</button>
-                  </div>
-                  <a class="small text-muted" href="#!">Forgot password?</a>
-                  <p class="mb-5 pb-lg-2" style="color: #393f81;">Don't have an account? <a href="buat_akun.php" style="color: #393f81;">Register here</a></p>
-                  <a href="#!" class="small text-muted">Terms of use.</a>
-                  <a href="#!" class="small text-muted">Privacy policy</a>
-                </form>
+    <section class="vh-100 gradient-custom" style="background-color: #F0E9D2;">
+  <div class="container py-5 h-100" >
+    <div class="row d-flex justify-content-center align-items-center h-100" >
+      <div class="col-12 col-md-8 col-lg-6 col-xl-5" >
+        <div class="card bg-dark text-white" style="border-radius: 1rem;">
+          <div class="card-body p-5 text-center" >
+            <form action="proses_login.php" method="POST" >
+            <div class="mb-md-5 mt-md-4 pb-5" >
+              <h2 class="fw-bold mb-2 text-uppercase">Login Admin</h2>
+              <p class="text-white-50 mb-5">Masukkan Username dan Password!</p>
+              <div class="form-outline form-white mb-4">
+                <input type="username" name="username" id="typeEmailX" class="form-control form-control-lg" />
+                <label class="form-label" for="typeEmailX">Username</label>
               </div>
+              <div class="form-outline form-white mb-4">
+                <input type="password"  name="password" id="typePasswordX" class="form-control form-control-lg" />
+                <label class="form-label" for="typePasswordX">Password</label>
+              </div>
+              <p class="small mb-5 pb-lg-2"><a class="text-white-50" href="#!">Forgot password?</a></p>
+              <button class="btn btn-outline-light btn-lg px-5" type="submit">Login</button>
+              <div class="d-flex justify-content-center text-center mt-4 pt-1">
+                <a href="#!" class="text-white"><i class="fab fa-facebook-f fa-lg"></i></a>
+                <a href="#!" class="text-white"><i class="fab fa-twitter fa-lg mx-4 px-2"></i></a>
+                <a href="#!" class="text-white"><i class="fab fa-google fa-lg"></i></a>
+              </div>
+            </div>
+</form>
+            <div>
+              <p class="mb-0">Don't have an account? <a href="buat_akun.php" class="text-white-50 fw-bold">Sign Up</a></p>
             </div>
           </div>
         </div>
@@ -57,7 +47,7 @@
     </div>
   </div>
 </section>
-<!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 </body>
 </html>
